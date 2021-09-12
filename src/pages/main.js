@@ -25,7 +25,7 @@ const main = () => {
                     <i class="far fa-envelope" />
                 </div>
                 <div className="description">
-                    <a href="tel: 281-248-6367">
+                    <a href="tel:+12812486367">
                         <p className="details">(281)248-6367</p>
                     </a>
                     <a href="https://www.instagram.com/makeupbymaniya/">
