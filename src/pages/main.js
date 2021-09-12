@@ -31,7 +31,9 @@ const main = () => {
                     <a href="https://www.instagram.com/makeupbymaniya/">
                         <p className="details">@makeupbymaniya</p>
                     </a>
-                    <p className="details">makeupbymaniya@gmail.com</p>
+                    <a href="mailto:makeupbymaniya@gmail.com">
+                        <p className="details">makeupbymaniya@gmail.com</p>
+                    </a>
                 </div>
             </div>
         </div>
