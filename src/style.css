@@ -11,7 +11,7 @@ body > #root > div {
 }
 
 .logo {
-    padding-top: 15%;
+    padding-top: 10%;
     text-align: center;
     display: block;
     justify-content: center;
@@ -44,15 +44,30 @@ i {
     font-size: 25px;
     float: right;
     margin-top: 15px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 .details {
-    color: #f07a56;
     margin-top: 15px;
     text-align: left;
     font-size: 20px;
+    padding-right: 10px;
+}
+.details:active {
+    transform: scale(0.98);
+    color: #4285f4;
 }
 a {
     text-decoration: none;
     color: black;
+}
+.email,
+.insta {
+    padding-top: 2px;
+}
+.insta {
+    padding-top: 3px;
+}
+.phone {
+    font-size: 18px;
+    font-weight: 500;
 }

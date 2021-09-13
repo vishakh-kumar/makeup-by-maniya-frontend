@@ -26,13 +26,15 @@ const main = () => {
                 </div>
                 <div className="description">
                     <a href="tel:+12812486367">
-                        <p className="details">(281)248-6367</p>
+                        <p className="details phone">(281)248-6367</p>
                     </a>
                     <a href="https://www.instagram.com/makeupbymaniya/">
-                        <p className="details">@makeupbymaniya</p>
+                        <p className="details insta">@makeupbymaniya</p>
                     </a>
                     <a href="mailto:makeupbymaniya@gmail.com">
-                        <p className="details">makeupbymaniya@gmail.com</p>
+                        <p className="details email">
+                            makeupbymaniya@gmail.com
+                        </p>
                     </a>
                 </div>
             </div>
