@@ -1,43 +1,26 @@
 import React from "react";
 import "../style.css";
 import logo from "../assets/makeup-logo.png";
-import nobara from "../assets/nobara.jpeg";
 
 const main = () => {
     return (
         <div className="mainBody">
-            <div className="logoDiv">
-                <img
-                    className="logo"
-                    style={{ alignSelf: "center" }}
-                    src={logo}
-                    alt="logo"
-                />
-            </div>
-            <div className="title">
-                <h1>Maniya Imam</h1>
-                <h3>Professional Makeup Artist</h3>
-            </div>
-            <div className="contact">
-                <div className="icons">
-                    <i class="fas fa-phone-alt" />
-                    <i class="fab fa-instagram" style={{ fontWeight: 600 }} />
-                    <i class="far fa-envelope" />
+            {/* for booking link */}
+            <a href="#">
+                <div className="booking">
+                    <p>Click Here For Booking</p>
                 </div>
-                <div className="description">
-                    <a href="sms:+12812486367">
-                        <p className="details phone">(281)248-6367</p>
-                    </a>
-                    <a href="https://www.instagram.com/makeupbymaniya/">
-                        <p className="details insta">@makeupbymaniya</p>
-                    </a>
-                    <a href="mailto:makeupbymaniya@gmail.com">
-                        <p className="details email">
-                            makeupbymaniya@gmail.com
-                        </p>
-                    </a>
-                </div>
+            </a>
+            {/* Logo and title space */}
+            <div className="header">
+                <a href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <h1 className="title">Makeup By Maniya</h1>
+                <h2>Houston Makeup Artist</h2>
             </div>
+            {/* div for border */}
+            <div className="dash"></div>
         </div>
     );
 };
