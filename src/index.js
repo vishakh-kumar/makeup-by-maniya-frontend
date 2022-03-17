@@ -5,7 +5,7 @@ import App from "./App";
 // bootstrap
 import "bootstrap/dist/css/bootstrap.css";
 // stylesheet
-import "./style.scss";
+import "./styles.css";
 
 ReactDOM.render(
     <Router>
