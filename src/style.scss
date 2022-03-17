@@ -1,0 +1,12 @@
+.navigation-bar {
+    .burger-menu {
+        border: none;
+    }
+    .burger-menu:hover {
+        transform: scale(1.2);
+    }
+    img {
+        width: 100px;
+        margin-left: 30px;
+    }
+}

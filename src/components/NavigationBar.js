@@ -1,13 +1,22 @@
 import React from "react";
 import BrandName from "../assets/brand_name.png";
+import "../style.scss";
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 
 const NavigationBar = () => {
     return (
         <>
-            <Navbar bg="light" expand={false}>
+            <Navbar
+                className="navigation-bar"
+                sticky="top"
+                bg="light"
+                expand={false}
+            >
                 <Container fluid>
-                    <Navbar.Toggle aria-controls="offcanvasNavbar" />
+                    <Navbar.Toggle
+                        className="burger-menu"
+                        aria-controls="offcanvasNavbar"
+                    />
                     <Navbar.Brand href="#">
                         <img src={BrandName} alt="Brand Name" />
                     </Navbar.Brand>
