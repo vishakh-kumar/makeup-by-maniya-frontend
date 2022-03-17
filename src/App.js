@@ -10,7 +10,7 @@ function App() {
         //     <Main />
         //     <NavigationBar />
         // </div>
-        <ImageSlider slides={SliderData} />
+        <NavigationBar />
     );
 }
 
