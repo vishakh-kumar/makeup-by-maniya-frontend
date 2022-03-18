@@ -1,3 +1,6 @@
+/* ============================= */
+/* NAVIGATION BAR */
+/* ============================= */
 img.brandName {
     width: 100px;
     height: auto;
@@ -29,7 +32,45 @@ p.contactme:hover {
     transform: scale(1.2);
     color: black;
 }
+/* ============================= */
+/* ImageSlider */
+/* ============================= */
 .box-carousel {
     width: 90%;
     margin-left: 5%;
 }
+/* ============================= */
+/* INTRO */
+/* ============================= */
+
+div.intro {
+    display: grid;
+}
+img.selfi {
+    height: 480px;
+    width: 320px;
+}
+div.image-box {
+    margin: 0 auto;
+}
+
+p.intro-heading {
+    font-size: 32px;
+    font-family: "Times New Roman", Times, serif;
+}
+@media screen and (min-width: 767px) {
+    div.intro {
+        display: flex;
+    }
+    img.selfi {
+        height: 480px;
+        width: 320px;
+        margin: 30px;
+    }
+    p.intro-heading {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 48px;
+        line-height: 55px;
+    }
+}
+/* ============================= */

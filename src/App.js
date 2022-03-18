@@ -3,12 +3,13 @@ import "./styles.css";
 import Main from "./pages/Main";
 import NavigationBar from "./components/NavigationBar";
 import ImageSlider from "./components/ImageSlider";
-import { SliderData } from "./components/SliderData";
+import Intro from "./components/Intro";
 function App() {
     return (
         <div className="App">
-            <NavigationBar />
-            <ImageSlider />
+            {/* <NavigationBar />
+            <ImageSlider /> */}
+            <Intro />
         </div>
     );
 }
