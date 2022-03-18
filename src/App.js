@@ -6,11 +6,10 @@ import ImageSlider from "./components/ImageSlider";
 import { SliderData } from "./components/SliderData";
 function App() {
     return (
-        // <div className="App">
-        //     <Main />
-        //     <NavigationBar />
-        // </div>
-        <NavigationBar />
+        <div className="App">
+            <NavigationBar />
+            <ImageSlider />
+        </div>
     );
 }
 

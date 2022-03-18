@@ -9,35 +9,40 @@ const NavigationBar = () => {
     return (
         <>
             <Navbar
-                className="navigation-bar"
                 sticky="top"
-                bg="light"
                 expand={false}
+                style={{ backgroundColor: "rgb(0, 0, 0, 0)" }}
             >
                 <Container fluid>
                     <Navbar.Toggle
                         style={{
+                            paddingRight: "90px",
                             border: "none",
+                            color: "rgb(255,0,0,0)",
                         }}
                         aria-controls="offcanvasNavbar"
                     >
                         <FontAwesomeIcon className="menubar" icon={faBars} />
                     </Navbar.Toggle>
                     <Navbar.Brand href="#">
-                        <img src={BrandName} alt="Brand Name" />
+                        <img
+                            className="brandName"
+                            src={BrandName}
+                            alt="Brand Name"
+                        />
                     </Navbar.Brand>
                     <Navbar.Brand href="#">
                         <p className="contactme"> Contact Me</p>
                     </Navbar.Brand>
                     <Navbar.Offcanvas
-                        style={{ backgroundColor: "black" }}
+                        style={{ backgroundColor: "light" }}
                         id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel"
                         placement="start"
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title
-                                style={{ color: "white" }}
+                                style={{ color: "black" }}
                                 id="offcanvasNavbarLabel"
                             >
                                 Make-Up By Maniya

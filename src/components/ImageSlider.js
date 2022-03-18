@@ -1,34 +1,49 @@
-import React, { useState } from "react";
-import { SliderData } from "./SliderData";
+import React from "react";
+import { useState } from "react";
+import { Carousel } from "react-bootstrap";
+import First from "../assets/photos/1.jpeg";
+import Second from "../assets/photos/2.jpeg";
+import Third from "../assets/photos/3.jpeg";
 
-const ImageSlider = ({ slides }) => {
-    const [current, setCurrent] = useState(0);
-    const length = slides.length;
+const ImageSlider = () => {
+    const [index, setIndex] = useState(0);
 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
     };
 
-    console.log(current);
-
-    if (!Array.isArray(slides) || slides.length <= 0) {
-        return null;
-    }
-
     return (
-        <section className="slider">
-            <i class="fas fa-chevron-left" />
-            <i class="fas fa-chevron-right" />
-            {SliderData.map((slide, index) => {
-                return (
-                    <img
-                        src={slide.image}
-                        alt="random"
-                        className="sliderImage"
-                    />
-                );
-            })}
-        </section>
+        <Carousel
+            style={{ marginLeft: "-35px" }}
+            variant="dark"
+            activeIndex={index}
+            onSelect={handleSelect}
+        >
+            <Carousel.Item>
+                <img
+                    style={{ height: "100%" }}
+                    className="d-block w-100"
+                    src={First}
+                    alt="First slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    style={{ height: "100%" }}
+                    className="d-block w-100"
+                    src={Second}
+                    alt="Second slide"
+                />
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    style={{ height: "100%" }}
+                    className="d-block w-100"
+                    src={Third}
+                    alt="Third slide"
+                />
+            </Carousel.Item>
+        </Carousel>
     );
 };
 
