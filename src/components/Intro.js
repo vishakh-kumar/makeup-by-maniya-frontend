@@ -21,10 +21,12 @@ const Intro = () => {
                     provident culpa ipsa explicabo dolor, perferendis ut? Unde,
                     et! A beatae, ea aut, provident libero expedita voluptatem
                     repellendus vero enim at inventore odio eligendi similique
-                    sint magnam ut nesciunt perferendis. Harum, qui? Minima,
+                    sint magnam ut nesciunt. perferendis. Harum, qui? Minima,
                     illo cupiditate.
                 </p>
-                <Button>More About Me</Button>
+                <Button className="button-more-about-me">
+                    <p className="button-more-about-me">More About Me</p>
+                </Button>
             </div>
         </div>
     );

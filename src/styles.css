@@ -45,6 +45,7 @@ p.contactme:hover {
 
 div.intro {
     display: grid;
+    row-gap: 3em;
 }
 img.selfi {
     height: 480px;
@@ -55,22 +56,54 @@ div.image-box {
 }
 
 p.intro-heading {
-    font-size: 32px;
-    font-family: "Times New Roman", Times, serif;
+    font-size: 36px;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+}
+p.intro-desc {
+    margin-top: 35px;
+    font-family: "Source Serif 4", sans-serif;
+    font-size: 18px;
+}
+Button.button-more-about-me {
+    padding: 0 16px;
+    background-color: black;
+    border: none;
+    border-radius: 0;
+    margin-top: 2em;
+}
+p.button-more-about-me {
+    margin: 8px 0;
+    color: white;
+    font-size: 16.5px;
+    font-family: "Source Serif 4";
 }
 @media screen and (min-width: 767px) {
     div.intro {
+        column-gap: 4em;
         display: flex;
+        height: 900px;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
     img.selfi {
         height: 480px;
         width: 320px;
-        margin: 30px;
+        margin-top: 9em;
     }
     p.intro-heading {
         font-family: "Times New Roman", Times, serif;
         font-size: 48px;
         line-height: 55px;
+    }
+    p.intro-desc {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 767px) {
+    div.intro-words {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
 }
 /* ============================= */
