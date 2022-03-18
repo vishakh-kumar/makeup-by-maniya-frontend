@@ -16,7 +16,7 @@ const NavigationBar = () => {
                 <Container fluid>
                     <Navbar.Toggle
                         style={{
-                            paddingRight: "90px",
+                            paddingRight: "80px",
                             border: "none",
                             color: "rgb(255,0,0,0)",
                         }}

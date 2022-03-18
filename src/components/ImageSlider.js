@@ -13,37 +13,38 @@ const ImageSlider = () => {
     };
 
     return (
-        <Carousel
-            style={{ marginLeft: "-35px" }}
-            variant="dark"
-            activeIndex={index}
-            onSelect={handleSelect}
-        >
-            <Carousel.Item>
-                <img
-                    style={{ height: "100%" }}
-                    className="d-block w-100"
-                    src={First}
-                    alt="First slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    style={{ height: "100%" }}
-                    className="d-block w-100"
-                    src={Second}
-                    alt="Second slide"
-                />
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    style={{ height: "100%" }}
-                    className="d-block w-100"
-                    src={Third}
-                    alt="Third slide"
-                />
-            </Carousel.Item>
-        </Carousel>
+        <div className="box-carousel">
+            <Carousel
+                variant="dark"
+                activeIndex={index}
+                onSelect={handleSelect}
+            >
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        src={First}
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        src={Second}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        src={Third}
+                        alt="Third slide"
+                    />
+                </Carousel.Item>
+            </Carousel>
+        </div>
     );
 };
 
