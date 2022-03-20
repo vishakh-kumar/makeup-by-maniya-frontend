@@ -2,7 +2,7 @@ import React from "react";
 import BrandName from "../assets/brand_name.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import "../styles.css";
+import "../styles/styles.css";
 import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
 
 const NavigationBar = () => {
@@ -11,7 +11,11 @@ const NavigationBar = () => {
             <Navbar
                 sticky="top"
                 expand={false}
-                style={{ backgroundColor: "white" }}
+                style={{
+                    backgroundColor: "white",
+                    borderBottom: "1px solid",
+                    borderColor: "rgb(230,230,230)",
+                }}
             >
                 <Container fluid>
                     <Navbar.Toggle
