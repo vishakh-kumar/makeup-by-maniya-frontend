@@ -7,10 +7,11 @@ import Intro from "./components/Intro";
 import Gallery from "./components/Gallery";
 import { Container } from "react-bootstrap";
 import Comments from "./components/Comments";
+import Services from "./components/Services.js";
 function App() {
     return (
         <div className="App">
-            <NavigationBar />
+            {/* <NavigationBar />
             <Container fluid>
                 <div>
                     <ImageSlider />
@@ -22,7 +23,8 @@ function App() {
                     <Gallery />
                 </div>
             </Container>
-            <Comments />
+            <Comments /> */}
+            <Services />
         </div>
     );
 }
