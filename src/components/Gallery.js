@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import img1 from "../assets/galleryphotos/1.jpeg";
 import img2 from "../assets/galleryphotos/2.jpeg";
 import img3 from "../assets/galleryphotos/3.jpeg";
@@ -44,7 +44,7 @@ const Gallery = () => {
     };
     return (
         <>
-            <div className={modal ? "modal open" : "modal"}>
+            <div className={modal ? "modal-open" : "modal"}>
                 <img src={tempImgSrc} />
                 <FontAwesomeIcon
                     icon={faXmark}

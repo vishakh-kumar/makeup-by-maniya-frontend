@@ -10,7 +10,7 @@ import Comments from "./components/Comments";
 function App() {
     return (
         <div className="App">
-            <NavigationBar />
+            {/* <NavigationBar />
             <Container fluid>
                 <div>
                     <ImageSlider />
@@ -18,11 +18,11 @@ function App() {
                 <div>
                     <Intro />
                 </div>
-                <div>
-                    <Gallery />
-                </div>
+    <div>*/}
+            <Gallery />
+            {/*    </div>
             </Container>
-            <Comments />
+            <Comments /> */}
         </div>
     );
 }
