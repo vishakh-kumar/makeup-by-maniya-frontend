@@ -36,19 +36,19 @@ const Gallery = () => {
             imgSrc: img6,
         },
     ];
-    const [modal, setModal] = useState(false);
+    const [model, setModel] = useState(false);
     const [tempImgSrc, setTempImgSrc] = useState("");
     const getImg = (imgSrc) => {
         setTempImgSrc(imgSrc);
-        setModal(true);
+        setModel(true);
     };
     return (
         <>
-            <div className={modal ? "modal-open" : "modal"}>
+            <div className={model ? "model-open" : "model"}>
                 <img src={tempImgSrc} />
                 <FontAwesomeIcon
                     icon={faXmark}
-                    onClick={() => setModal(false)}
+                    onClick={() => setModel(false)}
                 />
             </div>
             <div className="gallery">

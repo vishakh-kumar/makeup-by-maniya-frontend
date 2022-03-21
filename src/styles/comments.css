@@ -13,6 +13,7 @@ div.comment {
     font-size: 28px;
     font-family: "Bitter", serif;
     color: whitesmoke;
+    text-transform: capitalize;
 }
 div.name {
     text-transform: capitalize;
