@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/styles.css";
-import Main from "./pages/Main";
+import Contact from "./pages/Contact.js";
 import NavigationBar from "./components/NavigationBar";
 import ImageSlider from "./components/ImageSlider";
 import Intro from "./components/Intro";
@@ -23,6 +23,7 @@ function App() {
             <Comments />
             <Services />
             <Footer />
+            {/* <Contact /> */}
         </div>
     );
 }
