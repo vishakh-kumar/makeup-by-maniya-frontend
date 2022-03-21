@@ -1,0 +1,54 @@
+import React from "react";
+import { useState } from "react";
+import { Carousel } from "react-bootstrap";
+import First from "../assets/photos/1.jpeg";
+import Second from "../assets/photos/2.jpeg";
+import Third from "../assets/photos/3.jpeg";
+
+const ImageSlider = () => {
+    const [index, setIndex] = useState(0);
+
+    const handleSelect = (selectedIndex, e) => {
+        setIndex(selectedIndex);
+    };
+
+    return (
+        <div className="box-carousel">
+            <Carousel
+                variant="dark"
+                activeIndex={index}
+                onSelect={handleSelect}
+            >
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        id="carousel-img"
+                        src={First}
+                        alt="First slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        id="carousel-img"
+                        src={Second}
+                        alt="Second slide"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        style={{ height: "100%" }}
+                        className="d-block w-100"
+                        id="carousel-img"
+                        src={Third}
+                        alt="Third slide"
+                    />
+                </Carousel.Item>
+            </Carousel>
+        </div>
+    );
+};
+
+export default ImageSlider;
