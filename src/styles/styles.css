@@ -109,7 +109,10 @@ p.button-more-about-me {
     img.selfi {
         height: 480px;
         width: 320px;
-        margin-top: 6em;
+        margin-top: 12em;
+    }
+    div.intro-words {
+        margin-top: 5em;
     }
     p.intro-heading {
         font-family: "Times New Roman", Times, serif;
@@ -124,6 +127,17 @@ p.button-more-about-me {
     div.intro-words {
         margin-left: 1.5em;
         margin-right: 1.5em;
+    }
+}
+/* For Ipad screens */
+@media screen and (min-width: 766px) and (max-width: 823px) {
+    div.intro {
+        margin-bottom: 10em;
+    }
+    img.selfi {
+        height: 480px;
+        width: 320px;
+        margin-top: 16em;
     }
 }
 /* ============================= */

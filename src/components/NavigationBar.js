@@ -9,7 +9,6 @@ const NavigationBar = () => {
     return (
         <>
             <Navbar
-                sticky="top"
                 expand={false}
                 style={{
                     backgroundColor: "white",
