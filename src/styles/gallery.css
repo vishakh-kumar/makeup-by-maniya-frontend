@@ -6,8 +6,16 @@
     -moz-column-width: 33%;
     column-width: 33%;
     padding: 0 12px;
+    margin-top: 1.5em;
 }
-
+div.gallery-word {
+    margin-top: 4em;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+}
 .gallery .pics {
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
@@ -22,6 +30,14 @@
         -webkit-column-count: 2;
         -moz-column-count: 2;
         column-count: 2;
+    }
+    div.gallery-word {
+        margin-top: 2em;
+        text-align: center;
+        font-size: 33px;
+        font-family: "Cormorant Garamond", serif;
+        font-style: italic;
+        font-weight: 600;
     }
 }
 

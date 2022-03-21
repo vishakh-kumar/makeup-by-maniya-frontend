@@ -12,20 +12,16 @@ import Footer from "./components/Footer.js";
 function App() {
     return (
         <div className="App">
-            {/* <NavigationBar />
+            <NavigationBar />
             <Container fluid>
-                <div>
-                    <ImageSlider />
-                </div>
-                <div>
-                    <Intro />
-                </div>
-                <div>
-                    <Gallery />
-                </div>
+                <ImageSlider />
+
+                <Intro />
+
+                <Gallery />
             </Container>
             <Comments />
-            <Services /> */}
+            <Services />
             <Footer />
         </div>
     );

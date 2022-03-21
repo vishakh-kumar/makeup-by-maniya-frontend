@@ -1,6 +1,7 @@
 div.comment-box {
     background-color: rgb(15, 15, 15);
     height: 22em;
+    margin-top: 5em;
 }
 div.review-box {
     height: 22em;
@@ -24,7 +25,9 @@ div.name {
     font-family: "Prompt", sans-serif;
     color: rgb(160, 160, 160);
 }
-
+a.carousel-control-prev {
+    margin-left: 0;
+}
 /* mobile Screens */
 @media screen and (max-width: 550px) {
     div.comment-box {

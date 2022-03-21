@@ -23,6 +23,7 @@ const ImageSlider = () => {
                     <img
                         style={{ height: "100%" }}
                         className="d-block w-100"
+                        id="carousel-img"
                         src={First}
                         alt="First slide"
                     />
@@ -31,6 +32,7 @@ const ImageSlider = () => {
                     <img
                         style={{ height: "100%" }}
                         className="d-block w-100"
+                        id="carousel-img"
                         src={Second}
                         alt="Second slide"
                     />
@@ -39,6 +41,7 @@ const ImageSlider = () => {
                     <img
                         style={{ height: "100%" }}
                         className="d-block w-100"
+                        id="carousel-img"
                         src={Third}
                         alt="Third slide"
                     />

@@ -51,6 +51,7 @@ const Gallery = () => {
                     onClick={() => setModel(false)}
                 />
             </div>
+            <div className="gallery-word">Gallery</div>
             <div className="gallery">
                 {data.map((item, index) => {
                     return (

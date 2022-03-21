@@ -1,5 +1,7 @@
 .services {
     display: flex;
+    margin-top: 6em;
+    margin-bottom: 8em;
 }
 img.services-img-selfie {
     height: 420px;
@@ -39,6 +41,8 @@ img.services-content-icon {
 @media screen and (max-width: 500px) {
     .services {
         display: grid;
+        margin-top: 4em;
+        margin-bottom: 6em;
     }
     div.services-img {
         width: 100%;

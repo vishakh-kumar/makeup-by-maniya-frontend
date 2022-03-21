@@ -58,6 +58,12 @@ p.contactme-text:hover {
 .box-carousel {
     width: 90%;
     margin-left: 5%;
+    margin-top: 6em;
+}
+@media screen and (max-width: 500px) {
+    .box-carousel {
+        margin-top: 5em;
+    }
 }
 /* ============================= */
 /* INTRO */
@@ -66,6 +72,7 @@ p.contactme-text:hover {
 div.intro {
     display: grid;
     row-gap: 3em;
+    margin-top: 4em;
 }
 img.selfi {
     height: 360px;
@@ -123,7 +130,22 @@ p.button-more-about-me {
         font-size: 20px;
     }
 }
+@media screen and (max-width: 500px) {
+    div.intro {
+        display: grid;
+        row-gap: 3em;
+        margin-top: 5em;
+    }
+    p.intro-desc {
+        margin-top: 1em;
+    }
+}
 @media screen and (max-width: 767px) {
+    div.intro {
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 3em;
+    }
     div.intro-words {
         margin-left: 1.5em;
         margin-right: 1.5em;
