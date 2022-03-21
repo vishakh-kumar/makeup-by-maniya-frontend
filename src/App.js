@@ -8,6 +8,7 @@ import Gallery from "./components/Gallery";
 import { Container } from "react-bootstrap";
 import Comments from "./components/Comments";
 import Services from "./components/Services.js";
+import Footer from "./components/Footer.js";
 function App() {
     return (
         <div className="App">
@@ -23,8 +24,9 @@ function App() {
                     <Gallery />
                 </div>
             </Container>
-            <Comments /> */}
-            <Services />
+            <Comments />
+            <Services /> */}
+            <Footer />
         </div>
     );
 }
