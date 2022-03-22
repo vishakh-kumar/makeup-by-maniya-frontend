@@ -48,9 +48,7 @@ const Comments = () => {
                 {data.map((item, index) => {
                     return (
                         <Carousel.Item className="review-box">
-                            <div className="comment">
-                                {item.comment} {index}
-                            </div>
+                            <div className="comment">{item.comment}</div>
                             <div className="name">{item.name}</div>
                         </Carousel.Item>
                     );

@@ -12,7 +12,7 @@
 }
 .footer-left {
     font-family: "Prompt", sans-serif;
-    margin-left: 1em;
+    margin-left: 2.5em;
     margin-top: 0.8em;
 }
 p.footer-copyright {
@@ -21,7 +21,7 @@ p.footer-copyright {
 }
 .footer-right {
     margin-top: 0.8em;
-    margin-right: 1em;
+    margin-right: 2.5em;
     font-family: "Prompt", sans-serif;
 }
 p.footer-social {
