@@ -139,6 +139,9 @@ p.button-more-about-me {
     p.intro-desc {
         margin-top: 1em;
     }
+    img.selfi {
+        margin-top: 3.5em;
+    }
 }
 @media screen and (max-width: 767px) {
     div.intro {

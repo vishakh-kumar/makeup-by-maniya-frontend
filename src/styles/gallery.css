@@ -40,7 +40,11 @@ div.gallery-word {
         font-weight: 600;
     }
 }
-
+@media (min-width: 900px) {
+    div.gallery-word {
+        margin-top: 0;
+    }
+}
 /* for model  */
 .model {
     width: 100%;

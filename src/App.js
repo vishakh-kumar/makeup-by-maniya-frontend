@@ -21,7 +21,9 @@ function App() {
                 <Gallery />
             </Container>
             <Comments />
-            <Services />
+            <Container fluid>
+                <Services />
+            </Container>
             <Footer />
             {/* <Contact /> */}
         </div>

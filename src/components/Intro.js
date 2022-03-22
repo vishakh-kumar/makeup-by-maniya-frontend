@@ -10,7 +10,7 @@ const Intro = () => {
             </div>
             <div className="intro-words">
                 <p className="intro-heading">
-                    Hi, my name is blah blah, I am blah blah blahhh.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, non.
                 </p>
                 <p className="intro-desc">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
