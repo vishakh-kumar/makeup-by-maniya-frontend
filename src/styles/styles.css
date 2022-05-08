@@ -62,7 +62,7 @@ p.contactme-text:hover {
 }
 @media screen and (max-width: 500px) {
     .box-carousel {
-        margin-top: 5em;
+        margin-top: 6.5em;
     }
 }
 /* ============================= */
@@ -140,8 +140,13 @@ p.button-more-about-me {
         margin-top: 1em;
     }
     img.selfi {
+
         margin-top: 3.5em;
     }
+
+    
+
+
 }
 @media screen and (max-width: 767px) {
     div.intro {
