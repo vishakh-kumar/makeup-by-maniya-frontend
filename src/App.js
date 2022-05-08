@@ -28,7 +28,7 @@ function App() {
                 <Services />
             </Container>
             <Footer /> */}
-            <FileUpload />
+            <Contact />
         </div>
     );
 }

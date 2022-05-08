@@ -14,17 +14,18 @@ const Footer = () => {
                     <p className="footer-website-name">Make-Up By Maniya</p>
                 </div>
                 <div className="footer-right">
-                    <p className="footer-social">Social Media</p>
-
-                    <a
-                        href="https://www.instagram.com/makeupbymaniya/"
-                        target="_blank"
-                    >
-                        <FontAwesomeIcon
-                            className="social-icons"
-                            icon={faInstagram}
-                        />
-                    </a>
+                    <p className="footer-social">
+                        Social Media
+                        <a
+                            href="https://www.instagram.com/makeupbymaniya/"
+                            target="_blank"
+                        >
+                            <FontAwesomeIcon
+                                className="social-icons"
+                                icon={faInstagram}
+                            />
+                        </a>
+                    </p>
                 </div>
             </div>
         </>
