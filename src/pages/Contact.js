@@ -54,41 +54,61 @@ const Contact = () => {
                 </div>
                 <p>Or</p>
                 <form
-                    name="contact"
+                    name="Contact"
                     onSubmit={handleSubmit}
                     method="POST"
                     data-netlify="true"
                 >
-                    <input type="hidden" name="form-name" value="contact" />
-
                     <label>
                         Name:
-                        <input type="text" name="name" className="input" />
+                        <input
+                            type="text"
+                            onChange={handleChange}
+                            name="name"
+                            className="input"
+                        />
                     </label>
                     <label>
                         Email:
-                        <input type="email" name="email" className="input" />
+                        <input
+                            type="email"
+                            onChange={handleChange}
+                            name="email"
+                            className="input"
+                        />
                     </label>
                     <label>
                         Services Required:
                         <input
                             type="text"
+                            onChange={handleChange}
                             name="service-required"
                             className="input"
                         />
                     </label>
                     <label>
                         Date From:
-                        <input type="date" name="date-from" className="input" />
+                        <input
+                            type="date"
+                            onChange={handleChange}
+                            name="date-from"
+                            className="input"
+                        />
                     </label>
                     <label>
                         Date To:
-                        <input type="date" name="date-to" className="input" />
+                        <input
+                            type="date"
+                            onChange={handleChange}
+                            name="date-to"
+                            className="input"
+                        />
                     </label>
                     <label>
                         Event Time:
                         <input
                             type="text"
+                            onChange={handleChange}
                             name="event-time"
                             className="input"
                         />
