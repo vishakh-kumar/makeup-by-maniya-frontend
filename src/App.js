@@ -15,7 +15,7 @@ import FileUpload from "./components/FileUpload";
 function App() {
     return (
         <div className="App">
-            {/* <NavigationBar />
+            <NavigationBar />
             <Container fluid>
                 <ImageSlider />
 
@@ -27,8 +27,7 @@ function App() {
             <Container fluid>
                 <Services />
             </Container>
-            <Footer /> */}
-            <Contact />
+            <Footer />
         </div>
     );
 }
