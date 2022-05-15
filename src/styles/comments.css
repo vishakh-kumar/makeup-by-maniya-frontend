@@ -28,6 +28,9 @@ div.name {
 a.carousel-control-prev {
     margin-left: 0;
 }
+div.carousel-indicators {
+    visibility: hidden;
+}
 /* mobile Screens */
 @media screen and (max-width: 550px) {
     div.comment-box {

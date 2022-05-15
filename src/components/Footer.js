@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "../styles/footer.css";
-const Footer = () => {
+const Footer = ({ position }) => {
     return (
         <>
-            <div className="footer">
+            <div className="footer" style={{ position: position }}>
                 <div className="footer-left">
                     <p className="footer-copyright">
                         <FontAwesomeIcon icon={faCopyright} /> MakeupByManiya
