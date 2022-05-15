@@ -2,6 +2,7 @@
     display: flex;
     margin-top: 6em;
     margin-bottom: 8em;
+    width: 100%;
 }
 img.services-img-selfie {
     height: 420px;
@@ -54,5 +55,10 @@ img.services-content-icon {
         margin-top: 1em;
         margin-right: 0;
         border: 1px solid rgb(207, 207, 207);
+    }
+}
+@media screen and (min-width: 850px) {
+    .services {
+        column-gap: 4em;
     }
 }

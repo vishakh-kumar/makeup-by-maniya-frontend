@@ -9,10 +9,13 @@ import { Container } from "react-bootstrap";
 import Comments from "./components/Comments";
 import Services from "./components/Services.js";
 import Footer from "./components/Footer.js";
+import CommentAPI from "./pages/CommentAPI";
+import FileUpload from "./components/FileUpload";
+
 function App() {
     return (
         <div className="App">
-            <NavigationBar />
+            {/* <NavigationBar />
             <Container fluid>
                 <ImageSlider />
 
@@ -21,9 +24,11 @@ function App() {
                 <Gallery />
             </Container>
             <Comments />
-            <Services />
-            <Footer />
-            {/* <Contact /> */}
+            <Container fluid>
+                <Services />
+            </Container>
+            <Footer /> */}
+            <Contact />
         </div>
     );
 }
