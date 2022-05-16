@@ -4,10 +4,14 @@
 img.brandName {
     width: 100px;
     height: auto;
-    margin-top: -20px;
+    padding-top: 2px;
     margin-left: 5.5em;
-    margin-bottom: -20px;
-    background: none;
+    background-color: #edbbbf;
+    border-radius: 40%;
+    border: 1px solid black;
+}
+p.offcanvas-texts {
+    font-size: 20px;
 }
 p.contactme-text {
     margin-bottom: 0;
@@ -44,12 +48,12 @@ p.contactme-text:hover {
         margin: 0;
     }
     .contactme-icon {
-        margin-right: -4px;
+        padding-right: 10px;
         visibility: visible;
         font-size: 23px;
     }
     img.brandName {
-        margin-left: 1em;
+        margin-left: 2em;
     }
 }
 /* ============================= */
@@ -140,13 +144,8 @@ p.button-more-about-me {
         margin-top: 1em;
     }
     img.selfi {
-
         margin-top: 3.5em;
     }
-
-    
-
-
 }
 @media screen and (max-width: 767px) {
     div.intro {
