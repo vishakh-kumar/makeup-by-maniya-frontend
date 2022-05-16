@@ -49,7 +49,7 @@ const NavigationBar = () => {
                     </Link>
                     <Offcanvas show={show} onHide={handleClose}>
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title style={{ fontSize: "8vw" }}>
+                            <Offcanvas.Title style={{ fontSize: "35px" }}>
                                 Make-Up By Maniya
                             </Offcanvas.Title>
                         </Offcanvas.Header>
