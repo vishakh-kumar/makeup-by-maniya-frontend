@@ -3,7 +3,7 @@ p.thankyou {
     color: #edbbbf;
     font-family: "Dancing Script", cursive;
     text-align: center;
-    margin-top: 40vw;
+    margin-top: 30vw;
 }
 p.thankyou-for {
     font-size: 8vw;
@@ -28,4 +28,19 @@ img.makeuplogo1 {
     background-color: #edbbbf;
     width: 50vw;
     border-radius: 45%;
+}
+@media (min-width: 600px) {
+    p.thankyou {
+        margin-top: 80px;
+        font-size: 120px;
+    }
+    p.thankyou-for {
+        font-size: 60px;
+    }
+    p.return-main-page {
+        font-size: 17px;
+    }
+    img.makeuplogo1 {
+        width: 140px;
+    }
 }
