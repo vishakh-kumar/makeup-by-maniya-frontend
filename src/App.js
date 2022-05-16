@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import "./styles/styles.css";
 import Contact from "./pages/Contact.js";
 import ThankYou from "./pages/ThankYou";
-import Main from "./pages/Main";
+import Main from "./pages/main";
 
 function App() {
     return (
