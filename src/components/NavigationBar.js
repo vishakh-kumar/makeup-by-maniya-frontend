@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import makeuplogo from "../assets/makeup-logo.png";
-import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/styles.css";
-import { Navbar, Container, Offcanvas, Nav } from "react-bootstrap";
+import {
+    Navbar,
+    Container,
+    Offcanvas,
+    Nav,
+    NavDropdown,
+} from "react-bootstrap";
 
 const NavigationBar = () => {
     const [show, setShow] = useState(false);
@@ -31,22 +36,22 @@ const NavigationBar = () => {
                     >
                         <FontAwesomeIcon className="menubar" icon={faBars} />
                     </Navbar.Toggle>
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand href="/">
                         <img
                             className="brandName"
                             src={makeuplogo}
                             alt="Brand Name"
                         />
                     </Navbar.Brand>
-                    <Link to="/contactme">
-                        <Navbar.Brand className="contactme">
-                            <FontAwesomeIcon
-                                className="contactme-icon"
-                                icon={faEnvelope}
-                            />
-                            <p className="contactme-text"> Contact Me</p>
-                        </Navbar.Brand>
-                    </Link>
+
+                    <Navbar.Brand href="/contactme" className="contactme">
+                        <FontAwesomeIcon
+                            className="contactme-icon"
+                            icon={faEnvelope}
+                        />
+                        <p className="contactme-text"> Contact Me</p>
+                    </Navbar.Brand>
+
                     <Offcanvas show={show} onHide={handleClose}>
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title style={{ fontSize: "35px" }}>
@@ -54,22 +59,37 @@ const NavigationBar = () => {
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <p className="offcanvas-texts">
-                                <Link exact to="/">
-                                    HomePage
-                                </Link>
-                            </p>
-                            <p className="offcanvas-texts">
-                                <Link to="/contactme">Contact Me</Link>
-                            </p>
-                            <p className="offcanvas-texts">
-                                <a
+                            <Nav.Link
+                                style={{ color: "black", fontSize: "25px" }}
+                                href="/"
+                            >
+                                HomePage
+                            </Nav.Link>
+
+                            <Nav.Link
+                                style={{ color: "black", fontSize: "25px" }}
+                                href="/contactme"
+                            >
+                                Contact Me
+                            </Nav.Link>
+
+                            <NavDropdown
+                                style={{ fontSize: "25px" }}
+                                title="Social Media"
+                                id="basic-nav-dropdown"
+                            >
+                                <NavDropdown.Item
+                                    style={{
+                                        border: "none",
+                                        textAlign: "center",
+                                        fontSize: "20px",
+                                    }}
                                     href="https://www.instagram.com/makeupbymaniya/"
                                     target="_blank"
                                 >
-                                    Social Media
-                                </a>
-                            </p>
+                                    Instagram
+                                </NavDropdown.Item>
+                            </NavDropdown>
                         </Offcanvas.Body>
                     </Offcanvas>
                 </Container>

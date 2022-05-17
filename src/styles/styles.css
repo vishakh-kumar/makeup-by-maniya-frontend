@@ -48,12 +48,11 @@ p.contactme-text:hover {
         margin: 0;
     }
     .contactme-icon {
-        padding-right: 10px;
         visibility: visible;
         font-size: 23px;
     }
     img.brandName {
-        margin-left: 2em;
+        margin-left: 1em;
     }
 }
 /* ============================= */

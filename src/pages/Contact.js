@@ -6,6 +6,7 @@ import { Container } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "../styles/contactPage.css";
+import NavigationBar from "../components/NavigationBar";
 const Contact = () => {
     const form = useRef();
     //for redirect
@@ -36,9 +37,12 @@ const Contact = () => {
     };
     return (
         <>
+            <NavigationBar />
             <Container>
                 <div className="contact-page-title">Contact Me</div>
-                <p>For inquiries or any concerns, you can reach me at </p>
+                <p className="for-inquiries">
+                    For inquiries or any concerns, you can reach me at
+                </p>
                 <div className="page-insta">
                     <a
                         href="https://www.instagram.com/makeupbymaniya/"
@@ -103,7 +107,7 @@ const Contact = () => {
                     <button type="submit">Submit</button>
                 </form>
             </Container>
-            <Footer position="absolute" />
+            <Footer />
         </>
     );
 };
