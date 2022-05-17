@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import makeuplogo from "../assets/makeup-logo.png";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/styles.css";
@@ -44,13 +45,15 @@ const NavigationBar = () => {
                         />
                     </Navbar.Brand>
 
-                    <Navbar.Brand href="/contactme" className="contactme">
-                        <FontAwesomeIcon
-                            className="contactme-icon"
-                            icon={faEnvelope}
-                        />
-                        <p className="contactme-text"> Contact Me</p>
-                    </Navbar.Brand>
+                    <Link to="/contactme">
+                        <Navbar.Brand className="contactme">
+                            <FontAwesomeIcon
+                                className="contactme-icon"
+                                icon={faEnvelope}
+                            />
+                            <p className="contactme-text"> Contact Me</p>
+                        </Navbar.Brand>
+                    </Link>
 
                     <Offcanvas show={show} onHide={handleClose}>
                         <Offcanvas.Header closeButton>
@@ -59,19 +62,19 @@ const NavigationBar = () => {
                             </Offcanvas.Title>
                         </Offcanvas.Header>
                         <Offcanvas.Body>
-                            <Nav.Link
+                            <Link
                                 style={{ color: "black", fontSize: "25px" }}
-                                href="/"
+                                to="/"
                             >
                                 HomePage
-                            </Nav.Link>
+                            </Link>
 
-                            <Nav.Link
+                            <Link
                                 style={{ color: "black", fontSize: "25px" }}
-                                href="/contactme"
+                                to="/contactme"
                             >
-                                Contact Me
-                            </Nav.Link>
+                                <p>Contact Me</p>
+                            </Link>
 
                             <NavDropdown
                                 style={{ fontSize: "25px" }}
