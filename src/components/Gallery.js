@@ -5,6 +5,17 @@ import img3 from "../assets/galleryphotos/3.jpeg";
 import img4 from "../assets/galleryphotos/4.jpeg";
 import img5 from "../assets/galleryphotos/5.jpeg";
 import img6 from "../assets/galleryphotos/6.jpeg";
+import img7 from "../assets/galleryphotos/7.jpeg";
+import img8 from "../assets/galleryphotos/8.jpeg";
+import img9 from "../assets/galleryphotos/9.jpeg";
+import img10 from "../assets/galleryphotos/10.jpeg";
+import img11 from "../assets/galleryphotos/11.jpeg";
+import img12 from "../assets/galleryphotos/12.jpeg";
+import img13 from "../assets/galleryphotos/13.jpeg";
+import img14 from "../assets/galleryphotos/14.jpeg";
+import img15 from "../assets/galleryphotos/15.jpeg";
+import img16 from "../assets/galleryphotos/16.jpeg";
+import img17 from "../assets/galleryphotos/17.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import "../styles/gallery.css";
@@ -34,6 +45,50 @@ const Gallery = () => {
         {
             id: 6,
             imgSrc: img6,
+        },
+        {
+            id: 7,
+            imgSrc: img7,
+        },
+        {
+            id: 8,
+            imgSrc: img8,
+        },
+        {
+            id: 9,
+            imgSrc: img9,
+        },
+        {
+            id: 10,
+            imgSrc: img10,
+        },
+        {
+            id: 11,
+            imgSrc: img11,
+        },
+        {
+            id: 12,
+            imgSrc: img12,
+        },
+        {
+            id: 13,
+            imgSrc: img13,
+        },
+        {
+            id: 14,
+            imgSrc: img14,
+        },
+        {
+            id: 15,
+            imgSrc: img15,
+        },
+        {
+            id: 16,
+            imgSrc: img16,
+        },
+        {
+            id: 17,
+            imgSrc: img17,
         },
     ];
     const [model, setModel] = useState(false);
