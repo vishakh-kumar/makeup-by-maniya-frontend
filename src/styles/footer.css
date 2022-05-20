@@ -1,5 +1,5 @@
 .footer {
-    background-color: black;
+    background-color: #fedcdb;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #af3753;
     letter-spacing: 1px;
 }
 .footer-left {
@@ -38,7 +38,7 @@ a {
     align-self: center;
 }
 .social-icons {
-    color: white;
+    color: #af3753;
     font-size: 3.7vw;
 }
 .social-icons:hover {

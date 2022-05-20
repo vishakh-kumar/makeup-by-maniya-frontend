@@ -41,7 +41,7 @@ const Comments = () => {
     return (
         <div className="comment-box">
             <Carousel
-                variant="light"
+                variant="dark"
                 activeIndex={index}
                 onSelect={handleSelect}
             >

@@ -1,5 +1,5 @@
 div.comment-box {
-    background-color: rgb(15, 15, 15);
+    background-color: #fedcdb;
     height: 22em;
     margin-top: 5em;
 }
@@ -13,7 +13,7 @@ div.comment {
     text-align: center;
     font-size: 28px;
     font-family: "Bitter", serif;
-    color: whitesmoke;
+    color: #4c454c;
     text-transform: capitalize;
 }
 div.name {
@@ -23,7 +23,7 @@ div.name {
     font-size: 20px;
     letter-spacing: 2px;
     font-family: "Prompt", sans-serif;
-    color: rgb(160, 160, 160);
+    color: rgb(151, 149, 149);
 }
 a.carousel-control-prev {
     margin-left: 0;

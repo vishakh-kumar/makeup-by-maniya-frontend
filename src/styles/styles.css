@@ -2,38 +2,47 @@
 /* NAVIGATION BAR */
 /* ============================= */
 img.brandName {
-    width: 100px;
+    width: 120px;
     height: auto;
     padding-top: 2px;
     margin-left: 5.5em;
-    background-color: #efd7d6;
+    background-color: #fedcdb;
     border-radius: 40%;
-    border: 1px solid black;
 }
 p.offcanvas-texts {
     font-size: 20px;
 }
+div.offcanvas-title {
+    color: #af3753;
+}
+#basic-nav-dropdown {
+    color: #af3753;
+}
+a.dropdown-item {
+    color: #af3753;
+}
 p.contactme-text {
     margin-bottom: 0;
-    border: 1.5px black solid;
+    border: 1.5px #af3753 solid;
     padding: 4px 10px;
     font-size: 15px;
-    color: black;
+    color: #af3753;
     float: right;
 }
 p.contactme-text:hover {
-    background-color: black;
+    background-color: #af3753;
     color: white;
-    border-color: black;
+    border-color: #af3753;
 }
 .contactme-icon {
     visibility: hidden;
     font-size: 0px;
     float: right;
+    color: #af3753;
 }
 .menubar {
     font-size: 22px;
-    color: black;
+    color: #af3753;
     float: left;
 }
 .menubar:hover {
@@ -97,7 +106,7 @@ p.intro-desc {
 }
 Button.button-more-about-me {
     padding: 0 16px;
-    background-color: black;
+    background-color: #af3753;
     border: none;
     border-radius: 0;
     margin-top: 2em;

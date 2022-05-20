@@ -21,8 +21,8 @@ const NavigationBar = () => {
             <Navbar
                 expand={false}
                 style={{
-                    backgroundColor: "white",
-                    borderBottom: "1px solid",
+                    backgroundColor: "#fedcdb",
+                    borderBottom: "0.5px solid #FF6863",
                     borderColor: "rgb(230,230,230)",
                 }}
             >
@@ -60,14 +60,14 @@ const NavigationBar = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body>
                             <Nav.Link
-                                style={{ color: "black", fontSize: "25px" }}
+                                style={{ color: "#af3753", fontSize: "25px" }}
                                 href="/"
                             >
                                 HomePage
                             </Nav.Link>
 
                             <Nav.Link
-                                style={{ color: "black", fontSize: "25px" }}
+                                style={{ color: "#af3753", fontSize: "25px" }}
                                 href="/contactme"
                             >
                                 Contact Me
