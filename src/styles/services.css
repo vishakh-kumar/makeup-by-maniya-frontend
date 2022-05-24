@@ -4,9 +4,7 @@
     margin-bottom: 8em;
     width: 100%;
 }
-img.services-img-selfie {
-    height: 420px;
-    width: 280px;
+video.services-video {
     margin-top: 6em;
     margin-right: 1em;
     border: 1px solid rgb(207, 207, 207);
@@ -49,16 +47,17 @@ img.services-content-icon {
         width: 100%;
         text-align: center;
     }
-    img.services-img-selfie {
-        height: 420px;
-        width: 280px;
+    video.services-video {
         margin-top: 1em;
         margin-right: 0;
         border: 1px solid rgb(207, 207, 207);
     }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 550px) {
     .services {
-        column-gap: 4em;
+        column-gap: 2vw;
+    }
+    .services-content {
+        width: 70%;
     }
 }
