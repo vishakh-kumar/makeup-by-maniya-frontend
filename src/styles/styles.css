@@ -120,6 +120,7 @@ button.button-more-about-me {
 button.button-more-about-me:hover {
     background-color: white;
     border: 1px solid #af3753;
+    color: #af3753;
 }
 p.button-more-about-me:hover {
     color: #af3753;

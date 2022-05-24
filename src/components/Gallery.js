@@ -18,6 +18,7 @@ import img16 from "../assets/galleryphotos/16.jpeg";
 import img17 from "../assets/galleryphotos/17.jpeg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import { Modal } from "react-bootstrap";
 import "../styles/gallery.css";
 
 const Gallery = () => {
@@ -99,13 +100,16 @@ const Gallery = () => {
     };
     return (
         <>
-            <div className={model ? "model-open" : "model"}>
-                <img src={tempImgSrc} />
-                <FontAwesomeIcon
-                    icon={faXmark}
-                    onClick={() => setModel(false)}
-                />
-            </div>
+            <Modal
+                size="lg"
+                show={model}
+                onHide={() => setModel(false)}
+                aria-labelledby="example-modal-sizes-title-lg"
+            >
+                <Modal.Body>
+                    <img src={tempImgSrc} style={{ width: "100%" }} />
+                </Modal.Body>
+            </Modal>
             <div className="gallery-word">Gallery</div>
             <div className="gallery">
                 {data.map((item, index) => {
