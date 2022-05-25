@@ -9,52 +9,31 @@ const Comments = () => {
     };
     const data = [
         {
-            comment: "Lorem ipsum dolor sit amet consec",
-            name: "bakla",
-        },
-        {
-            comment: "we love your make up, Everyone loved the look so much",
-            name: "hkjlh",
-        },
-        {
-            comment:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, hic",
-            name: "dsadsa",
-        },
-        {
-            comment:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, hic",
-            name: "gadsfsdgaf",
-        },
-        {
-            comment:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, hic",
-            name: "gdfsa",
-        },
-        {
-            comment:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, hic",
-            name: "vishakh",
+            question: "Coming Soon...",
+            answer: "....",
         },
     ];
 
     return (
-        <div className="comment-box">
-            <Carousel
-                variant="dark"
-                activeIndex={index}
-                onSelect={handleSelect}
-            >
-                {data.map((item, index) => {
-                    return (
-                        <Carousel.Item className="review-box">
-                            <div className="comment">{item.comment}</div>
-                            <div className="name">{item.name}</div>
-                        </Carousel.Item>
-                    );
-                })}
-            </Carousel>
-        </div>
+        <>
+            <p className="faq-word">FAQ'S</p>
+            <div className="comment-box">
+                <Carousel
+                    variant="dark"
+                    activeIndex={index}
+                    onSelect={handleSelect}
+                >
+                    {data.map((item, index) => {
+                        return (
+                            <Carousel.Item className="review-box">
+                                <div className="comment">{item.question}</div>
+                                <div className="name">{item.answer}</div>
+                            </Carousel.Item>
+                        );
+                    })}
+                </Carousel>
+            </div>
+        </>
     );
 };
 

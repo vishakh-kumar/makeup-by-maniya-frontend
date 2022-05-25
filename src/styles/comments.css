@@ -1,7 +1,14 @@
+p.faq-word {
+    margin-top: 3em;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+}
 div.comment-box {
     background-color: #fedcdb;
     height: 22em;
-    margin-top: 5em;
 }
 div.review-box {
     height: 22em;
@@ -33,6 +40,9 @@ div.carousel-indicators {
 }
 /* mobile Screens */
 @media screen and (max-width: 550px) {
+    p.faq-word {
+        margin-top: 2em;
+    }
     div.comment-box {
         height: 16em;
     }
