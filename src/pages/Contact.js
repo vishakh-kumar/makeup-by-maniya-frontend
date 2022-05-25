@@ -45,66 +45,65 @@ const Contact = () => {
                 </p>
                 <div className="page-insta">
                     <a
+                        className="page-insta"
                         href="https://www.instagram.com/makeupbymaniya/"
                         target="_blank"
                     >
                         <FontAwesomeIcon icon={faInstagram} /> @makeupbymaniya
                     </a>
                 </div>
-                <p>Or</p>
-                <form ref={form} onSubmit={handleSubmit}>
-                    <label>
-                        Name:
-                        <input
-                            type="text"
-                            name="name"
-                            className="input"
-                            required
-                        />
-                    </label>
-                    <label>
-                        Email:
-                        <input
-                            type="email"
-                            name="email"
-                            className="input"
-                            required
-                        />
-                    </label>
-                    <label>
-                        Services Required:
-                        <input
-                            type="text"
-                            name="service-required"
-                            className="input"
-                            required
-                        />
-                    </label>
-                    <label>
-                        Date From:
-                        <input type="date" name="date-from" className="input" />
-                    </label>
-                    <label>
-                        Date To:
-                        <input type="date" name="date-to" className="input" />
-                    </label>
-                    <label>
-                        Event Time:
-                        <input
-                            type="text"
-                            name="event-time"
-                            className="input"
-                        />
-                    </label>
-                    <label>
-                        Further Queries:
-                        <textarea
-                            name="questions"
-                            row="4"
-                            className="textarea"
-                        />
-                    </label>
-                    <button type="submit">Submit</button>
+                <p style={{ textAlign: "center", fontWeight: "bold" }}>Or</p>
+                <form className="contact-me" ref={form} onSubmit={handleSubmit}>
+                    <input
+                        type="text"
+                        name="name"
+                        className="input"
+                        required
+                        placeholder="Name"
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        className="input"
+                        required
+                        placeholder="Email"
+                    />
+                    <input
+                        type="text"
+                        name="service-required"
+                        className="input"
+                        required
+                        placeholder="Services Required"
+                    />
+                    From:
+                    <input
+                        style={{ marginTop: 0 }}
+                        type="date"
+                        name="date-from"
+                        className="input"
+                    />
+                    To:
+                    <input
+                        style={{ marginTop: 0 }}
+                        type="date"
+                        name="date-to"
+                        className="input"
+                    />
+                    <input
+                        type="text"
+                        name="event-time"
+                        className="input"
+                        placeholder="Event Time"
+                    />
+                    <textarea
+                        name="questions"
+                        row="4"
+                        className="textarea"
+                        placeholder="Further Queries"
+                    />
+                    <button className="submit-button" type="submit">
+                        Submit
+                    </button>
                 </form>
             </Container>
             <Footer />
