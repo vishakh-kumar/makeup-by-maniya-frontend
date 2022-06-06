@@ -19,6 +19,7 @@ div.question {
     margin-right: 2em;
     text-align: center;
     font-size: 28px;
+    font-weight: 400;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     color: #4c454c;
     text-transform: capitalize;
@@ -31,7 +32,8 @@ div.answer {
     text-align: center;
     font-size: 20px;
     letter-spacing: 2px;
-    font-family: "Prompt", sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 200;
     color: rgb(0, 0, 0);
 }
 a.carousel-control-prev {
