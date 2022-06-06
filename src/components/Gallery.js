@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import img1 from "../assets/galleryphotos/1.jpeg";
-import img2 from "../assets/galleryphotos/2.jpeg";
-import img3 from "../assets/galleryphotos/3.jpeg";
-import img4 from "../assets/galleryphotos/4.jpeg";
-import img5 from "../assets/galleryphotos/5.jpeg";
-import img6 from "../assets/galleryphotos/6.jpeg";
-import img7 from "../assets/galleryphotos/7.jpeg";
-import img8 from "../assets/galleryphotos/8.jpeg";
-import img9 from "../assets/galleryphotos/9.jpeg";
-import img10 from "../assets/galleryphotos/10.jpeg";
-import img11 from "../assets/galleryphotos/11.jpeg";
-import img12 from "../assets/galleryphotos/12.jpeg";
-import img13 from "../assets/galleryphotos/13.jpeg";
-import img14 from "../assets/galleryphotos/14.jpeg";
-import img15 from "../assets/galleryphotos/15.jpeg";
-import img16 from "../assets/galleryphotos/16.jpeg";
-import img17 from "../assets/galleryphotos/17.jpeg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
+import img1 from "../assets/photos/galleryphotos/1.jpeg";
+import img2 from "../assets/photos/galleryphotos/2.jpeg";
+import img3 from "../assets/photos/galleryphotos/3.jpeg";
+import img4 from "../assets/photos/galleryphotos/4.jpeg";
+import img5 from "../assets/photos/galleryphotos/5.jpeg";
+import img6 from "../assets/photos/galleryphotos/6.jpeg";
+import img7 from "../assets/photos/galleryphotos/7.jpeg";
+import img8 from "../assets/photos/galleryphotos/8.jpeg";
+import img9 from "../assets/photos/galleryphotos/9.jpeg";
+import img10 from "../assets/photos/galleryphotos/10.jpeg";
+import img11 from "../assets/photos/galleryphotos/11.jpeg";
+import img12 from "../assets/photos/galleryphotos/12.jpeg";
+import img13 from "../assets/photos/galleryphotos/13.jpeg";
+import img14 from "../assets/photos/galleryphotos/14.jpeg";
+import img15 from "../assets/photos/galleryphotos/15.jpeg";
+import img16 from "../assets/photos/galleryphotos/16.jpeg";
+import img17 from "../assets/photos/galleryphotos/17.jpeg";
+import img18 from "../assets/photos/galleryphotos/18.jpeg";
+import img19 from "../assets/photos/galleryphotos/19.jpeg";
 import { Modal } from "react-bootstrap";
 import "../styles/gallery.css";
 
@@ -90,6 +90,14 @@ const Gallery = () => {
         {
             id: 17,
             imgSrc: img17,
+        },
+        {
+            id: 18,
+            imgSrc: img18,
+        },
+        {
+            id: 19,
+            imgSrc: img19,
         },
     ];
     const [model, setModel] = useState(false);
