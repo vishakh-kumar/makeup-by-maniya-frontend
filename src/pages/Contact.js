@@ -76,18 +76,11 @@ const Contact = () => {
                         required
                         placeholder="Services Required"
                     />
-                    From:
+                    Event Date:
                     <input
                         style={{ marginTop: 0 }}
                         type="date"
-                        name="date-from"
-                        className="input"
-                    />
-                    To:
-                    <input
-                        style={{ marginTop: 0 }}
-                        type="date"
-                        name="date-to"
+                        name="event-date"
                         className="input"
                     />
                     <input
@@ -95,6 +88,12 @@ const Contact = () => {
                         name="event-time"
                         className="input"
                         placeholder="Event Time"
+                    />
+                    <input
+                        type="number"
+                        name="total-clients"
+                        className="input"
+                        placeholder="Number Of People Needing Services"
                     />
                     <textarea
                         name="questions"
