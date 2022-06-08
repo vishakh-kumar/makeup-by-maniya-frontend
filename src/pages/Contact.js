@@ -84,7 +84,7 @@ const Contact = () => {
                         className="input"
                     />
                     <input
-                        type="text"
+                        type="time"
                         name="event-time"
                         className="input"
                         placeholder="Event Time"
