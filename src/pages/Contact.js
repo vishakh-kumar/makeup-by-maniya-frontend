@@ -48,6 +48,7 @@ const Contact = () => {
                         className="page-insta"
                         href="https://www.instagram.com/makeupbymaniya/"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <FontAwesomeIcon icon={faInstagram} /> @makeupbymaniya
                     </a>

@@ -4,6 +4,7 @@ import "./styles/styles.css";
 import Contact from "./pages/Contact.js";
 import ThankYou from "./pages/ThankYou";
 import Main from "./pages/main";
+import Faq from "./pages/Faq";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
                 <Route exact path="/" element={<Main />} />
                 <Route path="/contactme" element={<Contact />} />
                 <Route path="/thankyou" element={<ThankYou />} />
+                <Route path="/faq" element={<Faq />} />
             </Routes>
         </div>
     );

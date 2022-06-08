@@ -19,7 +19,11 @@ const Gallery = () => {
                 aria-labelledby="example-modal-sizes-title-lg"
             >
                 <Modal.Body>
-                    <img src={tempImgSrc} style={{ width: "100%" }} />
+                    <img
+                        src={tempImgSrc}
+                        alt="gallery img big"
+                        style={{ width: "100%" }}
+                    />
                 </Modal.Body>
             </Modal>
             <div className="gallery-word">Gallery</div>
@@ -31,7 +35,11 @@ const Gallery = () => {
                             key={{ index }}
                             onClick={() => getImg(item.imgSrc)}
                         >
-                            <img src={item.imgSrc} style={{ width: "100%" }} />
+                            <img
+                                src={item.imgSrc}
+                                alt="Galler Imgs"
+                                style={{ width: "100%" }}
+                            />
                         </div>
                     );
                 })}

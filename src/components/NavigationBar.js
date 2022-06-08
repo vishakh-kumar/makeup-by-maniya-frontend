@@ -72,6 +72,12 @@ const NavigationBar = () => {
                             >
                                 Contact Me
                             </Nav.Link>
+                            <Nav.Link
+                                style={{ color: "#af3753", fontSize: "25px" }}
+                                href="/faq"
+                            >
+                                Frequently Asked Questions
+                            </Nav.Link>
 
                             <NavDropdown
                                 style={{ fontSize: "25px" }}

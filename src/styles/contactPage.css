@@ -33,17 +33,19 @@ form.contact-me {
     margin-bottom: 30%;
 }
 input.input {
-    margin: 10px 0;
+    margin: 5px 0;
     padding: 5px 10px;
 }
 input.input:active {
     border: 2px solid #af3753;
 }
+
 textarea.textarea {
-    margin: 10px 0;
+    margin: 5px 0;
     padding: 5px 10px;
 }
 button.submit-button {
+    margin: 5px 0;
     padding: 10px;
     color: white;
     background-color: #af3753;
@@ -63,5 +65,13 @@ button.submit-button:hover:active {
     }
     p.for-inquiries {
         font-size: 20px;
+    }
+}
+
+/* for smaller screen */
+@media (max-width: 700px) {
+    form.contact-me {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
     }
 }

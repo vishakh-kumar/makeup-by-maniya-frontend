@@ -19,6 +19,7 @@ const Footer = ({ position }) => {
                         <a
                             href="https://www.instagram.com/makeupbymaniya/"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             <FontAwesomeIcon
                                 className="social-icons"
