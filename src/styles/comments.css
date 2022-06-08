@@ -24,7 +24,7 @@ div.question {
     font-size: 28px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+    color: #b2314f;
     text-transform: capitalize;
 }
 div.answer {
@@ -37,7 +37,7 @@ div.answer {
     letter-spacing: 2px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
-    color: rgb(29, 29, 29);
+    color: #af3753d6;
 }
 a.carousel-control-prev {
     margin-left: 0;
