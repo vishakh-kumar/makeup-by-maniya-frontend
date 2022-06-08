@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 import "../styles/thankyou.css";
 const ThankYou = () => {
     return (
-        <>
+        <div className="thankyou-page">
             <p className="thankyou">Thank You!</p>
             <p className="thankyou-for">For Your Inquiry</p>
-            <p className="return-main-page">
-                Click here to return to the main page
-            </p>
-            <Link to="/">
+            <Link style={{ textDecoration: "none", color: "#af3753" }} to="/">
+                <p className="return-main-page">
+                    Click here to return to the main page
+                </p>
                 <div className="makeuplogo">
                     <img
                         className="makeuplogo1"
@@ -19,7 +19,7 @@ const ThankYou = () => {
                     />
                 </div>
             </Link>
-        </>
+        </div>
     );
 };
 

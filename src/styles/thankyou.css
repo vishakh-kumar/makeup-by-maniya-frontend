@@ -1,15 +1,20 @@
+div.thankyou-page {
+    margin-top: 0;
+    height: 100rem;
+    background-color: #fedcdb;
+}
 p.thankyou {
     font-size: 18vw;
-    color: #edbbbf;
+    color: #af3753;
     font-family: "Dancing Script", cursive;
     text-align: center;
-    margin-top: 30vw;
+    padding-top: 30vw;
 }
 p.thankyou-for {
     font-size: 8vw;
     margin-top: -30px;
     font-family: "Dancing Script", cursive;
-    color: #edbbbf;
+    color: #af3753;
     text-align: center;
 }
 p.return-main-page {
@@ -25,7 +30,6 @@ div.makeuplogo {
     justify-content: center;
 }
 img.makeuplogo1 {
-    background-color: #edbbbf;
     width: 50vw;
     border-radius: 45%;
 }
